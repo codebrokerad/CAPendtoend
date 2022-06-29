@@ -28,3 +28,8 @@ mta_archives/
 # IDEs
 # .vscode
 # .idea
+
+# The SAP Fiori build files do not need to be stored in GitHub. You can add it to your .gitignore file:
+dist/
+resources/
+app/*/package-lock.json
